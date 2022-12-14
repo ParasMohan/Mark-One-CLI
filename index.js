@@ -60,28 +60,31 @@ for (var i = 0; i < questions.length; i++) {
 }
 console.log("\nThis ends the quiz.Thank You.")
 console.log("-----------------------------")
-console.log(userName +" Your final score is", score)
+console.log(userName + " Your final score is", score)
 
 //highest score message
-if (score===8){
-console.log("Amazing.. you know me really well" )
+if (score === 8) {
+  console.log("Amazing.. you know me really well")
 }
 
 //highscores Data
 var highScores = [{
   name: "Abhishek",
-  score:8
+  score: 8
 },
- {name : "Gaurav",
-  score:7}
-,
- {name : "Ashutosh",
+{
+  name: "Gaurav",
+  score: 7
+}
+  ,
+{
+  name: "Ashutosh",
   score: 6
- }
+}
 ]
-for (var i=0; i<highScores.length; i++){
+for (var i = 0; i < highScores.length; i++) {
   console.log(highScores[i])
-console
+  console
 }
 console.log("-------------------------------")
-  console.log("\nSend me your scores screenshot If you beat the highscores")
+console.log("\nSend me your scores screenshot If you beat the highscores")
